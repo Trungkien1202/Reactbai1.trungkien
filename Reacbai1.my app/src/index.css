@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar li {
+  display: inline-block;
+  
+}
+
+/* .card-icon .bi-collection::before {
+  content: "\f2cc"; */
+
+.card-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
